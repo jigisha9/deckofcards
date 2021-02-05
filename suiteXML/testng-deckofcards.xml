@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateDeckofCards" verbose="1">
+	<parameter name="fullReport" value="true"></parameter>
+	<parameter name="shortReportName" value="deckofcards"></parameter>
+
+	<test name="Create deck of cards API Tests">
+		<classes>
+			<class name="deckofcards.testsuites.Createdeckofcardstestsuite">
+				<!-- 	<methods> <include name="CreateDeckofcardsTC001"></include> </methods>-->
+             	<!--    <methods> <include name="CreateDeckofcardsTC002"></include> </methods>-->
+                    </class>
+                </classes>
+            </test>
+
+	<test name="Draw deck of cards API Tests">
+		<classes>
+			<class name="deckofcards.testsuites.Drawdeckofcardstestsuite">
+				<!-- <methods> <include name="drawDeckofcardsTC001"></include> </methods> -->
+			</class>
+		</classes>
+	</test>
+
+</suite>
+

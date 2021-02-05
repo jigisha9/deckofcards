@@ -1,0 +1,7 @@
+CLASSNAME, TESTCASENAME,DESCRIPTION,ENV-GROUP,FUNC-GROUP,PRIORITY,ENABLED
+Createdeckofcardstestsuite,CreateDeckofcardsTC001,This test verifies Brand new deck,deck|deck|deck|deck,test,1,TRUE
+Createdeckofcardstestsuite,CreateDeckofcardsTC002,This test Supports adding Jokers,deck|deck|deck|deck,test,2,TRUE
+Drawdeckofcardstestsuite,drawDeckofcardsTC001,This test Draw one or more cards,deck|deck|deck|deck,test,1,TRUE
+
+
+
