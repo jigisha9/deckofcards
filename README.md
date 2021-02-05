@@ -1,4 +1,4 @@
-<h1>Deck of Cards API automation</h1>
+<h1>Deck of Cards API Test Automation</h1>
 ## Current version:
     1.0.0
     
