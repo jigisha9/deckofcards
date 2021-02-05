@@ -56,6 +56,7 @@ Go to project directory from terminal - IntelliJ or any IDE tool that you are us
 
 ```
 mvn clean test -Durl=https://deckofcardsapi.com -Ddraw=2 -DsuiteFile=testng-deckofcards.xml 
+mvn clean test -Durl=https://deckofcardsapi.com -Ddraw=1 -DsuiteFile=testng-deckofcards.xml 
 ```
 
 
@@ -71,4 +72,4 @@ Note: customized reports is TO DO
  
 Jigisha Shah 
 
-```
+
