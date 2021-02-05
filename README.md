@@ -16,7 +16,7 @@ RestAPI Test automation for Deck of Cards
 * Environment driven - Params can be added as required to avoid hard coding
 * Extensive hooks implemented for BeforeAll, After, etc.
 * Screenshots on failure feature scenarios
-* 
+
 
 ## Pre-requisites
 
@@ -41,7 +41,7 @@ Type below commands on your terminal. It will return with version.
 * Clone the repository into a folder
 
 ```
-git clone <ENTER GIT PROJECT LINK HERE>.git
+git clone https://github.com/jigisha9/deckofcards.git
 ``` 
 
 
