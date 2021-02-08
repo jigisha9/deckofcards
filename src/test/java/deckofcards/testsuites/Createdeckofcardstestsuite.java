@@ -50,7 +50,7 @@ public class Createdeckofcardstestsuite {
 		log.info("***** GET Call CreateDeckofcardsTC001 ended *********");
 		//Verify HTTP status code and JSON response contains "success"
 		Assert.assertTrue(resp.getStatusCode()==HttpStatus.SC_OK,"*****Test Failed****** Status Code is "+resp.statusCode()+" "+resp.getBody().asString());
-        	Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
+		Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
     }
 
 	/**
@@ -67,5 +67,7 @@ public class Createdeckofcardstestsuite {
 		log.info(HttpStatus.SC_OK);
 		log.info(resp.getStatusCode());
 		Assert.assertTrue(resp.getStatusCode()==HttpStatus.SC_OK,"*****Test Failed****** Status Code is "+resp.statusCode()+" "+resp.getBody().asString());
+		Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
+
 	}
 }

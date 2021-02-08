@@ -1,0 +1,9 @@
+deckofcards\api\Createdeckofcards\CreateAPI.class
+deckofcards\api\Drawdeckofcards\DrawAPI.class
+deckofcards\testsuites\Drawdeckofcardstestsuite.class
+deckofcards\testsuites\Piledeckofcardstestsuite.class
+deckofcards\utils\Constant.class
+deckofcards\api\Shuffledeckofcards\ShuffleAPI.class
+deckofcards\testsuites\Createdeckofcardstestsuite.class
+deckofcards\testsuites\Shuffledeckofcardstestsuite.class
+deckofcards\api\Piledeckofcards\PileAPI.class

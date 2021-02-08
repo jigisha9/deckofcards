@@ -51,6 +51,8 @@ public class Drawdeckofcardstestsuite {
 		log.info("***** GET Call drawDeckofcardsTC001 ended *********");
 		log.info(resp.asString());
 		Assert.assertTrue(resp.getStatusCode()==HttpStatus.SC_OK,"*****Test Failed****** Status Code is "+resp.statusCode()+" "+resp.getBody().asString());
+		Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
+
 	}
 
 
