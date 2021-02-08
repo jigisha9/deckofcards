@@ -51,8 +51,6 @@ public class CreateAPI {
 			resp = given()
 					.contentType(ContentType.JSON)
 					.body(payload)
-				//	.header("jokers_enabled", true)
-				//	.contentType("multipart/form-data")
 					.when()
 					.post(hostUrl)
 					.then().log().all()
