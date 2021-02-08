@@ -50,7 +50,7 @@ public class Createdeckofcardstestsuite {
 		log.info("***** GET Call CreateDeckofcardsTC001 ended *********");
 		//Verify HTTP status code and JSON response contains "success"
 		Assert.assertTrue(resp.getStatusCode()==HttpStatus.SC_OK,"*****Test Failed****** Status Code is "+resp.statusCode()+" "+resp.getBody().asString());
-        Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
+        	Assert.assertTrue(resp.body().asString().contains("\"success\": true"),"Invalid response"+resp.body().asString());
     }
 
 	/**
@@ -60,7 +60,7 @@ public class Createdeckofcardstestsuite {
 	public void CreateDeckofcardsTC002() throws Exception {
 		log.info("***** Post Call CreateDeckofcardsTC002 Initiating *********");
 		Response resp;
-        this.baseUrl = this.contentroot + this.endpoint;
+        	this.baseUrl = this.contentroot + this.endpoint;
 		System.out.println(this.baseUrl);
 		resp = CreateAPI.createwithJokerAPI(this.baseUrl, this.payload);
 		log.info("***** Post Call CreateDeckofcardsTC002 ended *********");
